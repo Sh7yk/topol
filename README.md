@@ -7,11 +7,14 @@ Python script that traces hosts of a specified address pool and builds a graphic
 
 **Options**
 
-options:
   -h, --help
+  
   --proto {icmp,tcp,udp}
+  
   -p PORT, --port PORT
+  
   --target TARGET
+  
   -o OUTPUT, --output OUTPUT
 
 **Use:**
