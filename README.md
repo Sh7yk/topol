@@ -5,6 +5,15 @@ Python script that traces hosts of a specified address pool and builds a graphic
 
 `pip install -r requirements.txt`
 
+**Options**
+
+options:
+  -h, --help
+  --proto {icmp,tcp,udp}
+  -p PORT, --port PORT
+  --target TARGET
+  -o OUTPUT, --output OUTPUT
+
 **Use:**
 
   `sudo python3 topol.py --proto icmp --target 10.154.0.0/24 -o my_scheme`
